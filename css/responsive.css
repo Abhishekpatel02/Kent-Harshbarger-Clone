@@ -1,0 +1,1026 @@
+/*Responsive CSS Start*/
+
+@media only screen and (max-width:  1920px){
+    .banner-image {
+        margin-left: -420px;
+    }
+    .slicknav_menu {
+        display: none;
+    }
+}
+/*1600*/
+@media only screen and (max-width:  1599px) {
+  
+    .banner-image {
+        margin-left: -438px;
+    }
+    .slider4.slide {
+        margin-left: 300px;
+    }
+}
+/*1560*/
+@media only screen and (max-width:  1559px) {
+    .banner-image {
+        width: 69%;
+    }
+    .slider4.slide {
+        margin-left: 223px;
+    }
+}
+/*1440*/
+@media only screen and (max-width:1439px){
+    .portfolio-container {
+        margin-left: 153px;
+    }
+    .banner-image {
+        width: 67%;
+    }
+}
+/*1366*/
+@media only screen and (max-width:1365px){
+    .banner-image {
+        width: 68%;
+    }
+    .banner-image {
+        margin-left: -435px;
+    }
+    .our-portfolio {
+        width: 39%;
+    }
+    .portfolio-container {
+        margin-left: 109px;
+    }
+    .portfolio-section-ring {
+        position: absolute;
+        right: -179px;
+        bottom: 67px;
+    }
+    .submenu {
+        width: 13%;
+    }  
+    .close-btn {
+        position: absolute;
+        right: -136px;
+        top: 56px;
+    }   
+    .youtubeVideo {
+        position: absolute;
+        top: 25%;
+        left: 16%;
+    }
+}
+/*1320*/
+@media only screen and (max-width:1319px){
+    .banner-image {
+        margin-left: -422px;
+    }
+    .banner-content h1 {
+        font-size: 41px;
+    }
+    .Kent_banner {
+        padding: 0px 0px 96px 0px;
+    }
+    .youtubeVideo {
+        left: 15%;
+    }
+    .slider4.slide {
+        margin-left: 157px;
+    }
+
+}
+/*1280*/
+@media only screen and (max-width:1279px){
+    .banner-image {
+        margin-left: -395px;
+    }
+    .banner-content h1 {
+        font-size: 38px;
+       line-height: 64px;
+    }
+    .Kent_banner {
+        padding: 0px 0px 88px 0px;
+    }
+    /*.meet-kent-video-image-content {
+        width: 70%;
+    }*/
+    .meet-kent-video::after {
+        width: 90%;
+        left: 6%;
+    }
+    .close-btn {
+        right: -164px;
+    }
+    .youtubeVideo {
+        left: 12%;
+    }
+    .slider4.slide {
+        margin-left: 112px;
+    }
+}
+/*1200*/
+@media only screen and (max-width:1199px){
+      .banner-content {
+        width: 64%;
+    }
+    .banner-image {
+        margin-left: -495px;
+    }
+    .banner-content h1 {
+        font-size: 41px;
+        line-height: 64px;
+    }
+    .Kent_banner {
+        padding: 0px 0px 61px 0px;
+    }
+    .meet-kent-image {
+        width: 45%;
+    }
+    .meet-kent-heading {
+        padding: 0px 0px 39px 0px;
+    }
+    .protofolio-image-hover h5 {
+        padding-top: 46px;
+    }
+    .protofolio-image-hover p {
+        padding: 15px 10px 10px 25px;
+    }
+    .contact-me-box {
+        padding: 81px;
+    }
+    .content-heading.left {
+        float: unset;
+        width: 100%;
+    }
+    .recommendation-readmore {
+        padding: 24px;
+    }
+    .our-portfolio {
+        width: 47%;
+    }
+    .recommendation-readmore {
+        width: 10%;
+    }
+     .portfolio-section-ring{
+        display: none;
+    }
+    .submenu {
+        width: 17%;
+    }
+    .youtubeVideo {
+        left: 3%;
+    }
+    .slider4.slide {
+        margin-left: 24px;
+    }
+
+}
+/*1024*/
+@media only screen and (max-width:1023px){
+    .Kent_banner {
+        padding: 0px 0px 75px 0px;
+    }
+  .banner-image {
+        width: 70%;
+    }
+    .meet-kent {
+       padding: 60px 0px 93px 0px;
+    }
+    .banner-content {
+        padding-top: 80px;
+    }
+    .banner-content h1 {
+        font-size: 39px;
+        line-height: 58px;
+    }
+    .portfolio-container {
+        margin-left: 98px;
+    }
+    .recommendation-readmore {
+        padding: 21px;
+    }
+    .contact-me-box {
+        padding: 76px;
+    }
+    .meet-kent-video {
+       padding: 53px 0px 150px 0px;
+    }
+    .meet-kent-video-heading {
+        text-align: center;
+        padding-bottom: 38px;
+    }
+    .meet-kent-video-image {      
+        width: 93%;
+    }
+    .meet-kent-video-image-content {
+        width: 90%;
+    }
+    .recommendation {
+        padding: 60px 0px 50px 0px;
+    }
+    .customer-name {
+        width: 53%;
+    }
+    .harshbarger-heading h4 {
+        margin-bottom: 36px;
+    }
+    .recommendation {
+        padding: 145px 0px 50px 0px;
+    }
+    .slicknav_menu {
+        display: block;
+        float: right;
+        width: 22%;
+        margin-top: 38px;
+        margin-right: 73px;
+        position: absolute;
+        right: 0;
+        z-index: 1;
+        text-align: end;
+    }
+    .slicknav_menutxt {
+        font-size: 0;
+        background: url("../images/navmenu.png") no-repeat center;
+        width: 63px;
+        display: inline-block;
+        height: 48px;
+    }
+    .slicknav_nav li {
+        list-style: none;
+        text-align: left;
+    }
+    .slicknav_nav li a {
+        color: black;
+        padding-left: 8px;
+    }
+    .nav-list ul {
+        display: none;
+    }
+    ul.slicknav_nav {
+        background-color: white;
+        margin-right: 10px;
+    }
+    .nav-button {
+        color: #6E2B62;
+        font-weight: 600;
+        border: none;
+        padding: 7px 106px 4px 0px;
+        background-color: white;
+        font-size: 16px;
+        margin: 0;
+        min-width: 0;
+        border-radius: 0;
+    }
+    .nav-list ul li {
+        display:block;
+        border-bottom: 2px solid #6E2B62;
+    }
+    .nav-list ul li a {
+        padding: 7px 15px 4px 7px;
+        color: #6E2B62;
+        font-weight: 600;
+    }
+    .meet-kent-video::after {
+        bottom: 60px;
+    }
+    ul.submenu {
+        position: unset;
+        background-color: black;
+        width: 100%;
+    }
+    .nav-list ul li .submenu li a {
+        font-weight: 600;
+        color: #fff;
+    }
+    .nav-list ul li .submenu li{
+        border-bottom: 1px solid white;
+    }
+    .nav-list ul li .submenu li:last-child{
+        border-bottom: none;
+    }
+    a.slicknav_item.slicknav_row {
+        padding: 0;
+    }
+    span.slicknav_arrow {
+        display: none;
+    }
+    .nav-icons:hover {
+        background-color:unset;
+    }
+    a.nav-icons svg {
+        top: 13px;
+        left: 96px;
+    }
+    .youtubeVideo {
+        width: 934px;
+    }
+    .meet-kent-video-image-content {
+        width: 92%;
+    }
+    .slider4.slide {
+        margin-left: 8px;
+    }
+
+}
+/*980*/
+@media only screen and (max-width:979px){
+    .nav-logo.left {
+        float: unset;
+        width: 100%;
+    }
+    .nav-list.right {
+        float: unset;
+        text-align: center;
+        width: 100%;
+    }
+    .banner-content {
+        float: unset;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        position: relative;
+        z-index: 0;
+    }
+    .banner-content h2 {
+        font-size: 37px;
+        line-height: 48px;
+        padding: 13px 0px 13px 0px;
+    }
+    .banner-image.left {
+        float: unset;
+        width: 83%;
+        margin: 34px auto 0;
+        left: 0;
+    }
+    .Kent_banner {
+        padding: 0px 0px 61px 0px;
+    }
+    .meet-kent {
+        padding: 56px 0px 30px 0px;
+    }
+    .meet-kent-image.left {
+        float: unset;
+        width: 74%;
+        margin: auto;
+    }
+    .meet-kent-video-image-content {
+        padding: 13px 30px; 
+    }
+    .content-play-button.right {
+        padding: 6px 11px 11px 53px;
+    }
+    .meet-kent-content{
+        float: unset;
+        width: 100%;
+    }
+    .icon-heading {
+        text-align: center;
+        padding-top: 35px;
+    }
+    .meet-kent-heading {
+        text-align: center;
+    }
+    .our-portfolio::before {
+        display: none;
+    }
+    .our-portfolio {
+        float: unset;
+        width: 100%;
+    }
+    .portfolio-heading {
+        text-align: center;
+        padding-bottom: 18px;
+    }
+    .portfolio-container {
+        margin: 0;
+    }
+    .portoflio-container-image {
+        width: 49%;
+    }
+    .contact-me-box {
+        padding: 118px;
+    }
+    .meet-kent-video {
+        padding: 62px 0px 40px 0px;
+    }
+    .meet-kent-video-heading {
+        padding-bottom: 34px;
+    }
+    .meet-kent-video-image:after {
+        bottom: -13%;
+    }
+    .recommendation {
+        padding: 66px 0px 32px 0px;
+    }
+    .recommendation-content {
+        display: inline-block;
+        margin-left: 37px;
+        width: 72%;
+    }
+    .recommendation-para:after {
+        width: 15%;
+    }
+    .customer-name {
+        padding: 31px 0px 41px 0px;
+        width: 36%;
+    }
+    .portfolio-icon {
+        padding: 105px 0px 0px 0px;
+    }
+    .portfolio-heading {
+        padding-left: 0px;
+    }
+    .recommendation-readmore {
+        padding: 21px;
+        width: 13%;
+    }
+    .recommendation-para p:nth-child(2) {
+        padding: 15px 0px 29px 0px;
+    }
+    .harshbarger-heading h4 {
+        margin-bottom: 38px;
+    }
+    .Kent-harshbarger {
+        padding-bottom: 0;
+    }
+    .connect-us-section {
+        float: unset;
+        width: 100%;
+        text-align: center;
+    }
+    .social-media-icon {
+        padding: 6px 0px 0px 0px;
+    }
+    .form-section {
+        float: unset;
+        width: 90%;
+        margin: 10px auto 28px;
+    }
+    .connect-us{
+        margin-bottom: 0;
+    }
+    .footer-content {
+        text-align: center;
+        padding-bottom: 43px;
+    }
+    .footer-heading h4::after {
+        width: 14%;
+        left: 39%;
+    }
+    .social-media-icon a:hover {
+        width: 11%;
+    }
+    .meet-kent-image.left {
+        float: unset;
+        width: 77%;
+        margin: auto;
+    }
+    .slicknav_menu {
+        top: 0;
+    }
+    .nav-button {
+        padding: 0px 63px 0px 0px;
+    }
+    .meet-kent-video::after {
+        bottom: 0px;
+    }
+    .close-btn {
+        right: -140px;
+    }
+    .youtubeVideo {
+        width: 734px;
+    }
+    .meet-kent-video-image-content {
+        padding: 7px 14px;
+        width: 79%;
+        margin: -43px auto 0px;
+    }
+     .slider4.slide {
+        margin-left: 8px;
+    }
+}
+/*768*/
+@media only screen and (max-width:767px){
+    .nav-logo {
+        padding-top: 28px;
+    }   
+    header {
+        padding-bottom: 42px;
+    }  
+    .banner-content h1 {
+        font-size: 33px;
+        line-height: 55px;
+    }
+    .banner-content h2 {
+        font-size: 26px;
+        line-height: 38px;
+    }
+    .portfolio-heading h3{
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .contact-me-box {
+        padding: 89px;
+    }
+    .meet-kent-video-image-content {
+        padding: 21px 24px;
+        width: 92%;
+    }
+    .customer-name {
+        width: 42%;
+    }
+    .recommendation-readmore {
+        padding: 17px;
+        width: 14%;
+    }
+    .recommendation-heading {
+        padding: 17px 0px 21px 0px;
+    }
+    .recommendation-heading h3{
+        font-size: 34px;
+        line-height: 44px;
+    }
+    .harshnarger-container-image.left {
+        width: 45%;
+    }
+    .meet-kent-image.left {
+        float: unset;
+        width: 90%;
+        margin: auto;
+    }
+    .slicknav_menu {
+        margin-top: 12px;
+        width: 28%;
+    }
+    .nav-button {
+        padding: 0px 73px 0px 4px;
+    }
+    .youtubeVideo {
+        width: 621px;
+        height: 334px;
+    }
+    .meet-kent-video-image-content {
+        width: 89%;
+    }
+      
+}
+/*650*/
+@media only screen and (max-width:649px){
+    .Kent_banner {
+        padding: 0px 0px 53px 0px;
+    }
+    .contact-me-box {
+        padding: 74px;
+    }
+    .meet-kent-image a svg {
+        width: 61px;
+    }
+    .meet-kent-heading {
+        padding: 0px 0px 15px 0px;
+    }
+    .meet-kent-heading h3{
+        font-size: 30px;
+        line-height: 42px;
+    }
+    .meet-kent-video-image-content h5 {
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .meet-kent-video-heading h3{
+        font-size: 39px;
+        line-height: 50px;
+    }
+    .meet-kent-video {
+        padding: 31px 0px 40px 0px;
+    }
+    .meet-kent-video-image:after {
+        width: 100%;
+        left: 0;
+    }
+    .harshbarger-heading h4 {
+       font-size: 18px;
+    }
+    .meet-kent-video-heading {
+        padding-bottom: 24px;
+    }
+    .meet-kent-video-image {
+        width: 100%;
+    }
+    .protofolio-image-hover h5 {
+        padding-top: 15px;
+    }
+    .content-play-button a {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .recommendation {
+        padding: 33px 0px 32px 0px;
+    }
+    .recommendation-heading h3 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .recommendation-heading {
+        padding: 3px 0px 12px 0px;
+    }
+    .customer-name {
+        width: 100%;
+    }
+    .recommendation-content {
+         margin-left:0;
+         width: 100%;
+    }
+    .recommendation-readmore {
+        padding: 17px;
+        width: 15%;
+        bottom: 93px;
+    }
+    .recommendation-arrow::before {
+        width: 18%;
+    }
+    .meet-kent-video-image-content {
+        margin: -48px auto 0px;
+    }
+    .connect-us-section {
+        margin-top: 33px;
+    }
+    .form-heading h4 {
+        font-size: 21px;
+        line-height: 35px;
+    }
+    .message-field textarea {
+        padding: 9px 0px 15px 0px;
+    }
+       .social-media-icon a:hover {
+        width: 12%;
+    }
+    .footer {
+        background-color: #101820;
+        padding: 33px 0px 43px;
+    }
+    .footer-copyright {
+        padding-top: 20px;
+    }
+    .footer-content {
+        padding-bottom: 11px;
+    }
+    .form-section { 
+        padding: 60px 43px 50px;
+    }
+    .nav-button {
+        padding: 0px 50px 0px 4px;
+    }
+    .youtubeVideo {
+        width: 546px;
+        height: 300px;
+    }
+    .close-btn {
+        right: -89px;
+    }
+    .meet-kent-video-image-content {
+        margin: -48px 0px;
+        width: 99%;
+    }
+}
+/*568*/
+@media only screen and (max-width:567px){
+    .banner-content h1 {
+        font-size: 24px;
+        line-height: 44px;
+    }
+    .banner-content h2 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .meet-kent-image a {
+        position: absolute;
+        top: 36%;
+        left: 42%;
+    }
+    .Kent_banner {
+        padding: 0px 0px 44px 0px;
+    }
+    span:before {
+        width: 101px;
+    }
+    .icon-heading span {
+        padding-left: 108px;
+        margin-left: 6px;
+    }
+    .portfolio-heading h3 {
+        font-size: 26px;
+        line-height: 38px;
+    }
+    .portoflio-container-image {
+        width: 77%;
+        margin: 4px auto 0;
+        float: unset;
+    }
+    .contact-me-box {
+        padding: 128px;
+        box-shadow: 6px 3px 2px #FCFCFC;
+        position: relative;
+        margin: 5px auto 0;
+        width: 77%;
+        float: unset;
+    }
+    .meet-kent-video-image-content h5 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .recommendation-readmore {
+         width: 18%;
+        right: 49px;
+        bottom: 93px;
+    }
+    .meet-kent {
+        padding: 22px 0px 30px 0px;
+    }
+    .social-media-icon a:hover {
+        width: 14%;
+    }
+    .form-section {
+        padding: 24px 30px 26px;
+    }
+    .nav-logo h3 {
+        font-size: 26px;
+        line-height: 38px;
+    }
+    .slicknav_menu {
+        margin-top: 12px;
+        width: 33%;
+    }
+    .youtubeVideo {
+        width: 458px;
+        height: 260px;
+    }
+}
+/*480*/
+@media only screen and (max-width:479px){
+    .Kent_banner {
+        padding: 0px 0px 38px 0px;
+    }
+    .banner-content h1 {
+        font-size: 21px;
+        line-height: 42px;
+    }
+    .meet-kent-video-image:after {
+        width: 100%;
+        left: 0%;
+    }
+    span:before {
+        width: 45px;
+    }
+    .portfolio-icon {
+        padding: 19px 0px 0px 0px;
+    }
+    .icon-heading span {
+        padding-left: 54px;
+    }
+    .recommendation-readmore {
+        width: 21%;
+    }
+    .checkbox.left {
+        padding: 0px 26px 17px 0px;
+    }
+    .form-heading h4 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .recommendation-quote-icon figure {
+        width: 55px;
+        height: 53px;
+        padding: 8px;
+    }
+    .portfolio-heading h3 {
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .contact-me-box {
+        padding: 103px;
+    }
+    .social-media-icon a:hover {
+        width: 16%;
+    }
+    .meet-kent-video-heading h3 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .nav-logo h3 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .slicknav_menu {
+        margin-top: 12px;
+        width: 39%;
+        margin-right: 26px;
+    }
+    .nav-button {
+        padding: 0px 53px 0px 4px;
+    }
+    .youtubeVideo {
+        width: 397px;
+        height: 229px;
+    }
+    .close-btn {
+        right: -74px;
+    }
+    .slider4.slide {
+        margin-left: 3px;
+    }
+}
+/*414*/
+@media only screen and (max-width:413px){
+     .meet-kent-image a svg {
+        width: 47px;
+    }
+    .meet-kent-image a {
+        position: absolute;
+        top: 32%;
+        left: 42%;
+    }
+    .recommendation-readmore {
+        width: 24%;
+        right: 49px;
+        bottom: 92px;
+    }
+    .icon-heading span {
+        padding-left: 92px;
+        margin-left: -25px;
+    }
+    .portfolio-icon {
+        padding: 8px 0px 0px 0px;
+    }
+    .contact-me-box figure figcaption a {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    span:before {
+        width: 63px;
+        left: 25px;
+    }
+    .recommendation-heading h3 {
+        font-size: 22px;
+        line-height: 33px;
+    }
+    .footer-heading h4 {
+        font-size: 26px;
+        line-height: 37px;
+    }
+    .checkbox.left {
+        padding: 0px 0px 17px 0px;
+    }
+    .form-section {
+        padding: 25px 27px 50px;
+    }
+    .social-media-icon a:hover {
+        width: 18%;
+    }
+    .slicknav_menu {
+        width: 42%;
+    }
+    .youtubeVideo {
+        width: 374px;
+        height: 229px;
+    }
+    .meet-kent-video-image-content {
+        width: 100%;
+    }
+
+}
+/*390*/
+@media only screen and (max-width:389px){
+    .icon-heading {
+        padding-top: 19px;
+        margin-bottom: 3px; 
+    }
+
+    .harshbarger-heading h4 {
+        margin-bottom: 8px;
+    }
+    .form-section {
+        padding: 25px 21px 50px;
+    }
+    .serve {
+        padding: 23px 0px 12px 0px;
+    }
+    .contact {
+        padding: 0px 0px 11px 0px;
+    }
+    .mail {
+        padding: 0px 0px 8px 38px;
+    }
+    .about-meet a {
+        font-size: 16px;
+    }
+    .nav-button {
+        padding: 0px 48px 0px 4px;
+    }
+    .youtubeVideo {
+        width: 363px;
+        height: 229px;
+    }
+    .close-btn {
+        top: 50px;
+    }
+    .meet-kent-video-image-content {
+        width: 100%;
+    }
+       .meet-kent-video-image-content {
+        margin: -23px 0px;
+    }
+    .slider4.slide {
+        margin-left: 3px;
+    }
+}
+/*375*/
+@media only screen and (max-width:374px){
+    .nav-logo h3 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .nav-button a {
+        font-size: 16px;
+        padding: 6px 0px;
+        min-width: 140px;
+    }
+    header {
+        padding-bottom: 17px;
+    }
+    .Kent_banner {
+        padding: 0px 0px 30px 0px;
+    }
+    .meet-kent-image a {
+        position: absolute;
+        top: 27%;
+        left: 42%;
+    }
+    .protofolio-image-hover p {
+        padding: 8px 10px 10px 14px;
+    }
+    .contact-me-box {
+        padding: 86px;
+    }
+    .recommendation-readmore {
+        width: 28%;
+        bottom: 80px;
+    }
+    .harshbarger-heading h4 {
+        font-size: 15px;
+    }
+    .recommendation {
+        padding: 33px 0px 13px 0px;
+    }
+    .recommendation-quote-icon figure {
+        width: 48px;
+        height: 48px;
+        padding: 7px;
+    }
+    .protofolio-image-hover p {
+        font-size: 13px;
+    }
+    .mail a {
+        font-size: 14px;
+    }
+    .contact a {
+        font-size: 16px;
+    }
+    .serve p {
+        font-size: 14px;
+    }
+    .footer-heading h4 {
+        font-size: 21px;
+        line-height: 32px;
+    }
+    .serve {
+        padding: 10px 0px 12px 0px;
+    }
+    .meet-kent-video-heading h3 {
+        font-size: 29px;
+        line-height: 41px;
+    }
+    .social-media-icon a:hover {
+        width: 21%;
+    }
+    .meet-kent-heading h3 {
+        font-size: 26px;
+        line-height: 38px;
+    }
+    .nav-logo h3 {
+        font-size: 21px;
+        line-height: 32px;
+    }
+    .slicknav_menu {
+        width: 49%;
+    }
+    .youtubeVideo {
+        width: 308px;
+        height: 197px;
+    }
+    .close-btn {
+        right: -59px;
+    }
+}
+
+
+/*320*/
+/*Responsive CSS End

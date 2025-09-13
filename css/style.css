@@ -1,0 +1,901 @@
+/*.................................common css........................................*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box	;
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+a{
+	display: inline-block;
+	text-decoration: none;
+}
+p{
+	line-height: 30px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+	font-family: "Poppins", serif;
+}
+h1{
+	font-size: 60px;
+	line-height: 85px;
+}
+h2{
+	font-size: 46px;
+	line-height: 60px;
+}
+h3{
+	font-size: 44px ;
+	line-height: 56px;
+}
+h4{
+	font-size: 22px;
+	line-height: 36px;
+}
+h5{
+	font-size: 18px;
+	line-height: 28px;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.center-wrapper{
+	max-width: 1324px;
+	margin: auto;
+	width: 96%;
+}
+/*..........................common css end................................*/
+/*...........................header section start..........................*/
+header{
+	background-color: #000000;
+	padding-bottom: 72px;
+}
+.nav-logo{
+	padding-top: 70px;
+	color: white;
+}
+.nav-logo a{
+	color: white;
+}
+.nav-logo h3 {
+    font-size: 33px;
+    line-height: 42px;
+}
+/*.nav-list ul {
+    display: inline-block;
+}*/
+.nav-list ul li {
+    display: inline-block;
+}
+.nav-icons {
+    color: white;
+    padding: 86px 37px 20px 37px;
+    font-weight: 700;
+    font-size: 18px;
+    position: relative;
+}
+.nav-icons:hover {
+	background-color: #6E2B62;
+}
+.nav-button  {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border: 2px solid white;
+    padding: 10px 0px;
+    border-radius: 50px;
+    min-width: 170px;
+    text-align: center;
+    margin-left: 26px;
+}
+.nav-button:hover{
+	box-shadow: inset 0 0 0.55em 0em #dd648a;
+    border-color: #dd648a;
+    background-color: #894789;
+    transition: all 0.5s;
+}
+.slicknav_menu {
+    display: none;
+}
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 9%;
+    z-index: 1;
+ }
+.submenu li {
+    margin: 0px;
+    border-bottom: 1px solid #6E2B62;
+    width: 100%;
+    padding: 6px 5px 2px 2px;
+}
+.nav-list ul li .submenu li a {
+    padding: 5px 14px;
+    font-weight: 600;
+    color: #6E2B62;                          
+}
+.nav-list ul li .submenu li a:hover {
+   color: #21a18f;;
+}
+.nav-list li:hover .submenu {
+    display: block;
+}
+
+a.nav-icons svg {
+    height: 16px;
+    width: 20px;
+    margin-left: 28px;
+    position: absolute;
+    top: 91px;
+    right: 0;
+    transition: all 0.8s;
+}
+.nav-list li:hover .nav-icons svg{
+    transform: rotate(90deg);
+    transition: all 0.8s;
+}
+/*a.nav-icons svg:hover{
+    transform: rotate(90deg);
+}*/
+
+/*...........................header section end..........................*/
+/*...........................Kent-banner section start..........................*/
+.Kent_banner {
+   padding: 0px 0px 110px 0px;
+    background-color: #000000;
+}
+.banner-content{
+    position: relative;
+    z-index: 1;
+    width: 48%;
+    padding-top: 120px;
+}
+.banner-content h1 {
+    font-size: 42px;
+    line-height: 80px;
+    color: white;
+    font-weight: 400;
+}
+.banner-content h2 {
+    color: white;
+    font-weight: 800;
+    padding: 13px 0px 31px 0px;
+}
+.banner-content a,.about-meet a  {
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    font-weight: 800;
+    padding: 0px 44px 8px 0px;
+    border-bottom: 3px solid #6E2B62;
+    position: relative;
+}
+.banner-content a:hover,.about-meet a:hover,.meet-kent-about a:hover{
+	color: grey;
+	transition: all 0.5s ease-in-out;
+}
+.banner-content a:hover::after,.about-meet a:hover::after {
+    transform: translateX(50%);
+    transition: all .5s;
+}
+.banner-content a:hover .banner-content a::after{
+	color: grey;
+}
+.banner-content a::after{
+	content: "";
+	position: absolute;
+    background: url(../images/errow_white.svg) no-repeat center;
+    width: 22px;
+    height: 11px;
+    right: 8px;
+    bottom: 16px;
+}
+.banner-image {
+    margin-left: -394px;
+    position: relative;
+    z-index: 0;
+    left: 12%;
+    width: 73%;
+}
+.banner-image:before{
+	content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(110, 43, 98, 0.5);
+}
+.banner-image:after {
+    position: absolute;
+    content: " ";
+    background-color: #6e2b62;
+    height: 100%;
+    width: 100%;
+    top: 17%;
+    z-index: -1;
+    left: 12%;
+}
+/*...........................Kent-banner section End..........................*/
+/*...........................meet kent section start............................*/
+.meet-kent {
+    padding: 167px 0px 148px 0px;
+}
+.meet-kent-image{
+	position: relative;
+}
+.meet-kent-image a {
+    position: absolute;
+    top: 41%;
+    left: 42%;
+}
+.meet-kent-content {
+    width: 47%;
+}
+.icon-heading {
+    margin-bottom: 26px;
+}
+.icon-heading figure ,.meet-kent-span{
+    display: inline-block;
+    vertical-align: middle;
+}
+.candela-product-span,.meet-kent-span{
+    color: #8F5C85;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    padding-left: 130px;
+    position: relative;
+    margin-left: 15px;
+}
+.meet-kent-span:before,.candela-product-span:before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    background-color: #BFA1B9;
+    width: 118px;
+    height: 2px;
+}
+.meet-kent-heading {
+    padding: 0px 0px 0px -2px;
+    padding: 0px 243px 39px 0px;
+}
+.meet-kent-about {
+    padding-bottom: 26px;
+}
+#more {
+    display: none;
+}
+#read-more-btn {
+    border: none;
+    outline: none;
+    background: none;
+    color: #2f702f;
+    font-size: 16px;
+    line-height: 28px;
+    cursor: pointer;
+}
+#read-more-btn:hover{
+    color: #933025;
+}
+.about-meet a {
+    color: #000000;
+}
+.about-meet a:after{
+	content: "";
+	position: absolute;
+    background: url(../images/errow_black.svg) no-repeat center;
+    width: 22px;
+    height: 11px;
+    right: 12px;
+    bottom: 16px;
+}
+/*...........................................Meet Kent section css end...........................*/
+/*............................................Our Portfolio section css start....................*/
+.portfolio {
+    overflow: hidden;
+    position: relative;
+}
+.our-portfolio{
+    width: 41%;
+	position: relative;
+}
+.our-portfolio:before{
+	content: '';
+    background: url(../images/bg_pattern.png) no-repeat center;
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    border-top: 4px solid #6e2b62;
+}
+.portfolio-icon{
+	padding: 105px 0px 0px 78px;
+}
+.portfolio-heading {
+    padding-left: 70px;
+}
+.portfolio-container {
+    margin-left: 157px;
+    perspective: 1000px;
+}
+.portoflio-container-image {
+    margin: 2px 2px 0px 0px;
+    position: relative;
+    width: 33%;
+    transition: transform 0.8s;
+  	transform-style: preserve-3d;
+}
+.portoflio-container-image figure figcaption {
+    position: absolute;
+    color: #ffffff;
+    left: 15%;
+    bottom: 20%;
+}
+.portoflio-container-image figure figcaption:after{
+	content: "";
+	position: absolute;
+    background: url(../images/errow_white.svg) no-repeat center;
+    width: 22px;
+    height: 30px;
+}
+.protofolio-image-hover {
+    /*visibility: hidden;*/
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    color: white;
+    left: 0%;
+    background-color: #6E2B62;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transform-origin: top left;
+}
+.portoflio-container-image:hover .protofolio-image-hover{
+	/*visibility: visible;*/
+    transition: all 1.8s ease-in-out;
+    transform: scale(1);
+}
+.protofolio-image-hover h5 {
+    padding-top: 92px;
+    padding-left: 43px;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 800;
+}
+.protofolio-image-hover p{
+	padding: 15px 83px 10px 41px;
+    font-size: 18px;
+    font-height: 32px;
+    line-height: 32px;
+    font-weight: 500;
+}
+.protofolio-image-hover figure {
+    padding-left: 42px;
+}
+.contact-me-box {
+    padding: 128px;
+    box-shadow: 6px 3px 2px #FCFCFC;
+    position: relative;
+}
+.contact-me-box figure figcaption a{
+	color: black;
+    position: absolute;
+    left: 33%;
+    bottom: 50%;
+    font-size: 22px;
+    line-height: 34px;
+}
+.contact-me-box figure figcaption:after{
+	content: "";
+	position: absolute;
+    background: url(../images/right-arrow.png) no-repeat center;
+    width: 37px;
+    height: 30px;
+    bottom: 42%;
+    left: 45%;
+}
+.portfolio-section-ring {
+    position: absolute;
+    right: -179px;
+    bottom: 152px;
+}
+.container-1{
+    height: 474px;
+    width: 474px;
+    border: 2px solid #6e3f661f;
+    border-radius: 50%;
+    margin-bottom: -540px;
+    position: relative;
+    right: 111px;
+}
+.container-2{
+    height: 474px;
+    width: 474px;
+    border: 2px solid #6e3f661f;
+    border-radius: 50%;
+    position: relative;
+    animation: ring 5s linear infinite;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: #6E2B62;
+    position: absolute;
+    bottom: -36px;
+    left: 184px;     
+}
+@keyframes ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(180deg);
+  }
+}
+/*............................................Our Portfolio section css end....................*/
+/*............................................meet-kent video section css start......................*/
+.meet-kent-video{
+	padding: 159px 0px 222px 0px;
+    position: relative;
+}
+.meet-kent-video-heading {
+    text-align: center;
+    padding-bottom: 80px;
+}
+.meet-kent-video::after{
+	content: "";
+    position: absolute;
+    width: 66%;
+    height: 3px;
+    border-bottom: 1px solid grey;
+    left: 18%;
+    bottom: 133px;
+}
+.meet-kent-video-image-content {
+    background-color: #000000;
+    padding: 29px 59px;
+    width: 79%;
+    margin: -76px auto 0px;
+    position: relative
+}
+.content-heading.left {
+    width: 65%;
+}
+.meet-kent-video-image-content  h5 {
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+}
+.content-play-button.right {
+    padding: 24px 11px 11px 53px;
+    position: relative;
+   border-bottom: 3px solid #6E2B62;
+}
+.content-play-button a {
+    color: white;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 600;
+    position: relative;
+}
+.content-play-button a svg {
+    position: absolute;
+    left: -46px;
+    bottom: -5px;
+}
+.content-play-button a:hover{
+	color: grey;
+	transition: all 0.5s ease-in-out;
+}
+.meet-kent-video .bx-controls-direction {
+    display: none;
+}
+.meet-kent-video .bx-pager.bx-default-pager {
+    text-align: center;
+    margin-top: 39px;
+}
+.meet-kent-video .bx-pager-item {
+    display: inline-block;
+    font-size: 0;
+    margin: 10px;
+}
+.meet-kent-video a.bx-pager-link {
+    width: 39px;
+    height: 4px;
+    background-color: #C6CCD6;
+}
+.meet-kent-video a.bx-pager-link:hover{
+     background-color: #6E2B62;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+  z-index: 1;
+}
+.youtubeVideo {
+    position: absolute;
+    top: 25%;
+    left: 31%;
+    width: 976px;
+    height: 449px;
+}
+.video-container {
+  position: relative;
+  width: 80%;
+  height: 80%;
+  text-align: center;
+}
+.close-btn {
+  position: absolute;
+  right: 45px;
+  top:70px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+}
+.close-btn:hover {
+  color: #ff0000;
+}
+.slider4.slide {
+    margin-left: 443px;
+}
+/*............................................meet-kent video section css End......................*/
+/*............................................Recommendation section css start......................*/
+.recommendation {
+    padding: 145px 0px 117px 0px;
+}
+.recommendation-section{
+	position: relative;
+}
+.recommendation-quote-icon {
+    display: inline-block;
+    vertical-align: top;
+}
+.recommendation-quote-icon figure {
+    width: 96px;
+    height: 96px;
+    background-color: #101820;
+    padding: 25px;
+}
+.recommendation-content{
+	display: inline-block;
+	margin-left: 95px;
+	width: 76%;
+}
+.recommendation-heading{
+	padding: 17px 0px 52px 0px;
+}
+.recommendation-para p {
+    font-weight: 500;
+}
+.recommendation-para p:nth-child(2) {
+    padding: 15px 176px 29px 0px;
+}
+.recommendation-para{
+	position: relative;
+}
+.recommendation-para:after {
+    content: "";
+    position: absolute;
+    width: 8%;
+    height: 0px;
+    border: 1px solid #6E2B62;
+}
+.customer-name {
+    padding: 31px 0px 41px 0px;
+    width: 25%;
+}
+.recommendation-readmore {
+    width: 9%;
+    padding: 32px;
+    border: 1px solid #6E2B62;
+    border-radius: 50%;
+    background-color: #6E2B62;
+    position: absolute;
+    right: 104px;
+    bottom: 75px;
+}
+.recommendation-readmore a {
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+.recommendation-readmore a:hover{
+	color: grey;
+	transition: all 0.5s ease-in-out;
+}
+.recommendation .bx-controls-direction {
+    position: relative;
+    width: 10%;
+    margin: 0 auto;
+}
+.recommendation .bx-prev{
+    font-size: 0;
+    background: url(../images/prev_errow.svg) no-repeat center;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    transform: translate(-50px, -50px);
+}
+.recommendation .bx-next{
+    background: url(../images/next_erow.svg) no-repeat center;
+    font-size: 0;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 47px;
+    transform: translate(-50px, -50px);
+}
+.recommendation .bx-wrapper .bx-pager {
+    display: none;
+}
+/*............................................Recommendation section css End......................*/
+/*............................................Kent_harshbarder css start...........................*/
+.Kent-harshbarger {
+    padding-bottom: 153px;
+}
+.harshbarger-heading {
+    text-align: center;
+}
+.harshbarger-heading h4 {
+    font-size: 25px;
+    line-height: 37px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 3px;
+    margin-bottom: 86px;
+    color: black;
+}
+.harshbarger-heading a h4:hover {
+    color: grey;
+    transition: all 0.5s ease-in;
+}
+.harshnarger-container-image figure {
+    max-width: 378px;
+    padding: 0px 0px 2px 3px;
+}
+/*.............................................kent harshbarfer css end................................*/
+/*............................................Contact us section css start.............................*/
+.connect-us {
+    margin-bottom: -385px;
+}
+.connect-us-section {
+    margin-top: 70px;
+    width: 35%;
+}
+.connect-us-section h4{
+	font-size: 33px;
+    line-height: 46px;
+}
+.social-media-icon {
+    padding: 72px 0px 0px 0px;
+}
+.social-media-icon a {
+   padding: 15px 19px 18px 20px;
+}
+.social-media-icon a:hover{
+	background-color: #6E2B62;
+	border-radius: 50%;
+}
+.social-media-icon a:hover path{
+	fill: white;
+}
+.form-section {
+    background-color: #6E2B62;
+    padding: 60px 80px 50px;
+    width: 60%;
+}
+.form-heading h4 {
+    color: white;
+    font-size: 25px;
+    line-height: 37px;
+}
+.form-container input{
+	width: 100%;
+    padding: 29px 0px 16px 0px;
+    background-color: #6E2B62;
+    border: none;
+    border-bottom: 1px solid #804676;
+    font-size: 20px;
+    line-height: 32px;
+    outline: none;
+    color: white;
+}
+.form-container input::placeholder{
+	color: white;
+}
+.form-heading h5 {
+    color: white;
+    padding: 37px 0px 15px 0px;
+    font-weight: 900;
+}
+.checkbox.left {
+    padding: 0px 85px 17px 0px;
+}
+.checkbox input {
+    transform: scale(2);
+ }
+.checkbox.left label {
+    padding-left: 15px;
+    color: white;
+}
+.message-field textarea{
+    width: 100%;
+    padding: 9px 0px 62px 0px;
+    background-color: #6E2B62;
+    border: none;
+    border-bottom: 1px solid #804676;
+    font-size: 20px;
+    line-height: 32px;
+    outline: none;
+    color: white;
+    resize: none;
+    font-family: "Poppins", serif;
+}
+.message-field textarea::placeholder{
+	color: white;
+}
+.submit-button {
+    padding-top: 29px;
+    position: relative;
+}
+.submit-button input{
+	border-radius: 33px;
+    border: 2px solid #fff;
+    background: url(../images/errow_white.svg) no-repeat 77% center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 21px !important;
+    line-height: 25px;
+    padding: 16px 65px 16px 33px;
+    cursor: pointer;
+}
+.submit-button input:hover{
+    box-shadow: inset 0 0 0.55em 0em #dd648a;
+    border-color: #e7d6dc;
+    background-color: #894789;
+    transition: all 0.5s;
+}
+/*.name,.email ,.phone{
+    position: relative;
+}*/
+.error-message {
+    color: red;
+}
+/*............................................Contact us section css End.............................*/
+/*............................................footer css start.......................................*/
+.footer{
+	background-color: #101820;
+    padding: 114px 0px 43px;
+}
+.footer-heading h4{
+	color: white;
+	font-size: 30px;
+    line-height: 42px;
+    font-weight: 800;
+    padding-bottom: 18px;
+    position: relative;
+}
+.footer-heading h4::after{
+	content: "";
+    position: absolute;
+    width: 7%;
+    height: 0px;
+    border: 1px solid #6E2B62;
+    left: 0px;
+    bottom: 0px;
+}
+.serve {
+    padding: 23px 0px 37px 0px;
+}
+.serve p {
+    color: white;
+    font-weight: 800;
+}
+ .mail {
+    padding: 0px 0px 30px 38px;
+}
+.mail a {
+    color: white;
+    font-size: 18px;
+    line-height: 23px;
+    position: relative;
+    font-weight: 800;
+}
+.mail a img{
+	position: absolute;
+    transform: translate(-34px, 5px);
+}
+.contact{
+	padding: 0px 0px 19px 38px;
+}
+.contact a{
+	color: white;
+    font-size: 18px;
+    line-height: 23px;
+    position: relative;
+    font-weight: 800;
+}
+.contact a img{
+	position: absolute;
+    transform: translate(-34px, 5px);
+}
+.mail a:hover,.contact a:hover{
+	color: grey;
+	transition: all 0.5s ease-in-out;
+}
+.footer-content{
+	padding-bottom: 188px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.footer-copyright{
+    padding-top: 45px;
+    text-align: center;
+}
+.footer-copyright a{
+	color: #787f88;
+}
+.footer-copyright a:hover{
+	color: white;
+	transition: all .4s ease-in-out;
+}
+/*...............................................footer css end..........................................*/
+/*...........................................scroll to top button css.....................................*/
+#myBtn{
+    display: none;
+     position: fixed;
+    bottom: 32px;
+    right: 82px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #6e2b62;
+    padding: 22px;
+    border: none;
+    cursor: pointer;
+    
+}
+#myBtn figure svg{
+    animation: bounce 2s infinite;
+}
+@keyframes bounce{
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-15px);
+    }
+    60% {
+        transform: translateY(0px);
+    }
+}
+#myBtn:hover{
+    background-color: #71719f;;
+    transition: all 0.3s;
+    transform: scale(1.1);
+}
+/*.........................................../scroll to top button css.....................................*/
+
+

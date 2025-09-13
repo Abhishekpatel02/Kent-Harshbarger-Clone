@@ -1,0 +1,242 @@
+/*Responsive CSS Start*/
+
+/*1440*/
+@media only screen and (max-width:1439px){
+}
+
+/*1366*/
+@media only screen and (max-width:1365px){
+    .form-section {
+        width: 59%;
+    }
+}
+/*1320*/
+@media only screen and (max-width:1319px){
+    .form-section {
+        width: 58%;
+    }
+}
+/*1280*/
+@media only screen and (max-width:1279px){
+    .contact-page {
+        padding: 136px 0px 0px 87px;
+        width: 39%;
+    }
+}
+/*1200*/
+@media only screen and (max-width:1199px){
+    .contact-page {
+        padding: 136px 0px 0px 0px;
+        width: 39%;
+    }
+    .form-section {
+        background-color: #6E2B62;
+        padding: 60px 43px 50px;
+    }
+}
+/*1024*/
+@media only screen and (max-width:1023px){
+    .form-section {
+        background-color: #6E2B62;
+        padding: 60px 29px 50px;
+    }
+  /*  .harshnarger-container-image:nth-child(1) {
+        display: block;
+        margin: 0 auto;
+        width: 39%;
+        float: unset;
+    }
+    .harshnarger-container-image {
+        display: none;
+    }*/
+    .harshbarger-heading h4 {
+        margin-bottom: 36px;
+    }
+}
+/*980*/
+@media only screen and (max-width:979px){
+    .nav-logo.left {
+        float: unset;
+        text-align: center;
+        padding-top: 18px;
+    }
+    .nav-list.right {
+        float: unset;
+        text-align: center;
+    }
+    .nav-list ul li a {
+        padding: 38px 37px 20px 37px;
+    }
+    .about-candela-heading {
+        text-align: center;
+        padding-top: 34px;
+        padding-bottom: 0;
+    }
+    .down-arrow {
+        position: relative;
+        top: 40px;
+    }
+    .down-arrow a:before {
+        top: -31px;
+    }
+    .contact-page.left {
+        float: unset;
+        width: 100%;
+        padding: 0;
+    }
+    .serving-areas {
+        padding: 34px 67px 25px 37px;
+        position: relative;
+        display: inline-block;
+    }
+    .serving-areas::before{
+        display: none;
+    }
+    .contact-kent {
+        padding: 34px 67px 25px 37px;
+        position: relative;
+        display: inline-block;
+    }
+    .contact-kent::before{
+        display: none;
+    }
+    .connect-us-section {
+        text-align: center;
+        padding: 0;
+    }
+    .form-section.right {
+        float: unset;
+        width: 100%;
+    }
+}
+/*768*/
+@media only screen and (max-width:767px){
+    .serving-areas {
+        padding: 34px 18px 25px 20px;
+    }
+    .contact-kent {
+        padding: 34px 17px 25px 35px;
+        vertical-align: top;
+    }
+}
+/*650*/
+@media only screen and (max-width:649px){
+    .contact-page.left {
+        width: 52%;
+        margin: 0 auto;
+    }
+    .serving-areas {
+         padding: 34px 0px;
+    }
+    .contact-kent {
+        padding: 0px 0px 20px 0px;
+    }
+    .form {
+        padding: 70px 0px 44px;
+    }
+}
+/*568*/
+@media only screen and (max-width:567px){
+        .contact-page.left {
+            width: 61%;
+            margin: 0 auto;
+        }
+        .connect-us-section h4 {
+            font-size: 29px;
+            line-height: 40px;
+        }
+        .social-media-icon {
+            padding: 16px 0px 15px 0px;
+        }
+        .harshbarger-heading h4 {
+            font-size: 20px;
+            line-height: 30px;
+            margin-bottom: 15px;
+        }
+        .form-section {
+            padding: 16px 22px 25px;
+        }
+        .form-heading h4 {
+            color: white;
+            font-size: 22px;
+            line-height: 34px;
+        }
+}
+/*480*/
+@media only screen and (max-width:479px){
+    .about-candela-heading h2 {
+        font-size: 34px;
+        line-height: 50px;
+    }
+    .nav-button {
+        padding: 0;
+    }
+    .nav-list ul li a {
+        padding: 38px 27px 20px 27px;
+    }
+  .contact-page.left {
+        width: 100%;
+        padding: 0px 26px;
+    }
+    .connect-us-section {
+        text-align: left;
+    }
+}
+/*414*/
+@media only screen and (max-width:413px){
+  
+}
+/*390*/
+@media only screen and (max-width:389px){
+    .nav-logo h3 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+    .nav-list ul li a {
+         padding: 26px 19px 20px 22px;
+     }
+    .form {
+         padding: 70px 0px 13px;
+    }
+}
+/*375*/
+@media only screen and (max-width:374px){
+    .nav-list ul li a {
+         padding: 26px 13px 20px 17px;
+    }
+    .about-candela-heading h2 {
+        font-size: 25px;
+        line-height: 36px;
+    }
+    .form {
+        padding: 40px 0px 13px;
+    }
+    .contact-kent h4 {
+        padding-bottom: 20px;
+        font-size: 22px;
+        line-height: 33px;
+    }
+    .mail a {
+        color: black;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .contact a {
+        color: black;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .connect-us-section h4 {
+        font-size: 25px;
+        line-height: 37px;
+    }
+    .social-media-icon a {
+        padding: 15px 15px 18px 20px;
+    }
+    .harshbarger-heading h4 {
+        font-size: 17px;
+        line-height: 28px;
+    }
+}
+/*320*/
+/*Responsive CSS End*/

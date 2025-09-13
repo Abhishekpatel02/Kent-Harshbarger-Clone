@@ -1,0 +1,612 @@
+/*Responsive CSS Start*/
+
+/*1440*/
+@media only screen and (max-width:1439px){
+     .line {
+        width: 93%;
+        left: 38px;
+    }
+    .bx-prev {
+        left: 50px;
+        top: 22%;
+    }
+    .bx-next {
+        right: -5%;
+        top: 22%;
+    }
+}
+
+/*1366*/
+@media only screen and (max-width:1365px){
+ 	.establishment-content-learnmore {
+	    width: 77%;
+	    padding: 64px 108px 64px 67px;
+	    margin: 92px 0px -175px 107px;
+	}
+	/*.box {
+		margin-left: 29px;
+	}*/
+  /*  .bx-wrapper {
+    max-width: 1360px !important;
+}*/
+}
+/*1320*/
+@media only screen and (max-width:1319px){
+    	.line {
+		    width: 93%;
+		    left: 40px;
+		}
+     /*   .box {
+        margin-left: 20px;
+    }*/
+}
+/*1280*/
+@media only screen and (max-width:1279px){
+  	.about-candela-content.right {
+	    width: 51%;
+	}
+	.establishment-content-learnmore {
+        width: 77%;
+        padding: 64px 69px 64px 46px;
+        margin: 78px 0px -132px 107px;
+    }
+    /*.box {
+       margin: 0 auto;
+    }*/
+    /*.bx-wrapper{
+        max-width: 1365px !important;
+    }*/
+}
+/*1200*/
+@media only screen and (max-width:1199px){
+  	.about-ceo-image {
+	    position: relative;
+	    margin-left: 22px;
+	}
+	.about-candela-content-article p {
+    	padding: 0;
+    }
+    .establishment-content-article article p {
+	    font-size: 16px;
+	    line-height: 32px;
+	    padding: 65px 33px 0px 0px;
+	}
+	.establishment-content-learnmore {
+        width: 72%;
+        padding: 64px 30px 64px 22px;
+    }
+    .founding-story-content {
+    	width: 76%;
+	    padding: 33px 20px 23px 250px;
+	}	
+	.founding-story-content p {
+    	font-size: 17px;
+	}
+	.story-heading {
+		padding: 30px 0px 35px 37px;
+	}
+	.story-heading h3 {
+	    font-size: 36px;
+	    line-height: 46px;
+	}
+	.story-content {
+   		 padding: 0px 31px 0px 66px;
+   	}
+    .bx-prev {
+        left: 50px;
+        top: 21%;
+    }
+    .bx-next {
+        right: -5%;
+        top: 21%;
+    }
+}
+/*1024*/
+@media only screen and (max-width:1023px){
+    .harshbarger-heading h4 {
+        margin-bottom: 36px;
+    }
+    .about-candela-content.right {
+        width: 49%;
+    }
+    .establishment-content-learnmore {
+        width: 70%;
+        padding: 23px 14px 25px 12px;
+         margin: 7px 0px -132px 107px;
+    }
+    .story-heading h3 {
+        font-size: 33px;
+        line-height: 46px;
+    }
+    .founding-story-content {
+        width: 80%;
+    }
+    .founding-story-content p {
+        font-size: 16px;
+    }
+  /*  .box {
+        margin-left: 18px;
+    }*/
+    .product-boxes .bx-wrapper {
+        margin: 0 auto;
+    }
+    .line {
+        width: 84%;
+        left: 68px;
+    }
+    .bx-prev {
+        left: 71px;
+        top: 25%;
+    }
+    .bx-next {
+        right: -3%;
+        top: 25%;
+    }
+  
+}
+/*980*/
+@media only screen and (max-width:979px){
+	.nav-logo.left {
+        float: unset;
+        text-align: center;
+        padding-top: 18px;
+    }
+    .nav-list.right {
+        float: unset;
+        text-align: center;
+    }
+    .nav-list ul li a {
+        padding: 38px 37px 20px 37px;
+    }
+    .about-candela-heading {
+        text-align: center;
+        padding-top: 34px;
+        padding-bottom: 0;
+    }
+    .down-arrow {
+        position: relative;
+        top: 40px;
+    }
+    .down-arrow a:before {
+        top: -31px;
+    }
+    .harshbarger-heading h4 {
+        margin-bottom: 38px;
+    }
+    .Kent-harshbarger {
+        padding-bottom: 0;
+    }
+    .connect-us-section {
+        float: unset;
+        width: 100%;
+        text-align: center;
+    }
+    .social-media-icon {
+        padding: 6px 0px 0px 0px;
+    }
+    .form-section {
+        float: unset;
+        width: 90%;
+        margin: 10px auto 28px;
+    }
+    .connect-us{
+        margin-bottom: 0;
+    }
+    .footer-content {
+        text-align: center;
+        padding-bottom: 43px;
+    }
+    .footer-heading h4::after {
+        width: 14%;
+        left: 39%;
+    }
+    .social-media-icon a:hover {
+        width: 11%;
+    }
+    .about-candela {
+    	padding: 108px 0px 30px 0px;
+	}
+	.about-ceo-image.left {
+	    float: unset;
+	    width: 58%;
+        margin: 0 auto;
+	}
+	.about-candela-content.right {
+	    float: unset;
+	    width: 100%;
+	    padding-top: 26px;
+	}
+	.about-candela-content-logo {
+	    width: 17%;
+	    margin: 0 auto;
+	}
+	.about-candela-content-heading h3 {
+		text-align: center;
+	}
+	.establishment-content-article.left {
+	    float: unset;
+	    width: 100%;
+	}
+	.establishment-section {
+	    background-color: #f1f4f5;
+	    padding: 0px 24px 10px;
+	}
+	.establishment-content-learnmore {
+		padding: 44px 30px;
+        margin: 30px auto 70px;
+    }
+    .establishment-content-article article p {
+        font-size: 16px;
+        line-height: 32px;
+        padding: 18px 0px 0px 0px;
+    }
+    .establishment-content-image.right {
+	    float: unset;
+	    width: 75%;
+	    margin: 0 auto;
+	}
+	.establishment {
+	    padding-bottom: 26px;
+	}
+	.story-heading {
+	    display: block;
+	    width: 100%;
+	    text-align: center;
+	    border: none;
+        padding: 10px 0px;
+	}
+	.story-content {
+	    display: block;
+	    width: 100%;
+	    text-align: center;
+	    padding: 0;
+	}
+	.founding-story-image.left {
+	    float: unset;
+	    width: 76%;
+	    margin: 0 auto;
+	}
+	.founding-story-image-content {
+	    padding: 26px 0px 0px;
+	}
+	.founding-story-content.left {
+	    float: unset;
+	    width: 100%;
+	    margin: 0;
+	    padding: 13px;
+	}
+	.charity-support {
+	    padding: 24px 0px;
+	}
+	.charity-support-section-article {
+		padding: 19px 6px;
+	}
+	.charity-support-section-images figure img {
+ 	   padding: 20px 15px;
+	}
+   /* .box h4::after {
+       width: 32%;
+    }*/
+    .bx-prev ,.bx-next{
+        top: 25%;
+    }
+    .line {
+        width: 88%;
+        left: 44px;
+    }
+    /*.box h4{
+        font-size: 20px;
+        line-height: 32px;
+    }*/
+    
+    /*.bx-wrapper {
+    margin: 0 auto;
+    }*/
+}
+/*768*/
+@media only screen and (max-width:767px){
+  	.harshnarger-container-image.left {
+        width: 45%;
+    }
+    .meet-kent-image.left {
+        float: unset;
+        width: 90%;
+        margin: auto;
+    }
+
+    
+}
+/*650*/
+@media only screen and (max-width:649px){
+  .harshbarger-heading h4 {
+       font-size: 18px;
+    }
+    .connect-us-section {
+        margin-top: 33px;
+    }
+    .form-heading h4 {
+        font-size: 21px;
+        line-height: 35px;
+    }
+    .message-field textarea {
+        padding: 9px 0px 15px 0px;
+    }
+       .social-media-icon a:hover {
+        width: 12%;
+    }
+    .footer {
+        background-color: #101820;
+        padding: 33px 0px 43px;
+    }
+    .footer-copyright {
+        padding-top: 20px;
+    }
+    .footer-content {
+        padding-bottom: 11px;
+    }
+    .form-section { 
+        padding: 60px 43px 50px;
+    }
+    .establishment-content-learnmore {
+        padding: 44px 61px;
+        margin: 18px auto 25px;
+        width: 90%;
+    }
+    .box {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .product-launches-section {
+        padding-bottom: 80px;
+    }
+    .bx-prev, .bx-next {
+        top: 26%;
+    }
+    .bx-next {
+        right: -5%;
+    }
+    .bx-prev {
+        left: 99px;
+    }
+    .line {
+        width: 67%;
+        left: 95px;
+    }
+}
+/*568*/
+@media only screen and (max-width:567px){
+	.social-media-icon a:hover {
+        width: 14%;
+    }
+    .form-section {
+        padding: 24px 30px 26px;
+    }
+    .about-candela {
+        padding: 65px 0px 30px 0px;
+    }
+    .about-ceo-image.left {
+    	width: 80%;
+    }
+    .about-ceo-image::before {
+    	left: -18px;
+    	top: -13px;
+	}
+	.about-candela-content-article p {
+    	font-size: 16px;
+    	line-height: 30px;
+	}
+	.establishment-content-learnmore {
+       padding: 21px 20px;
+    }
+    .line {
+        width: 74%;
+        left: 65px;
+    }
+    .bx-prev {
+        left: 70px;
+    }
+    .bx-next {
+        right: -11%;
+    }
+
+  
+}
+/*480*/
+@media only screen and (max-width:479px){
+	.about-candela-heading h2 {
+        font-size: 34px;
+        line-height: 50px;
+    }
+    .nav-button {
+        padding: 0;
+    }
+    .nav-list ul li a {
+        padding: 38px 27px 20px 27px;
+    }
+    .checkbox.left {
+        padding: 0px 26px 17px 0px;
+    }
+    .form-heading h4 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .recommendation-quote-icon figure {
+        width: 55px;
+        height: 53px;
+        padding: 8px;
+    }
+    .portfolio-heading h3 {
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .contact-me-box {
+        padding: 103px;
+    }
+    .social-media-icon a:hover {
+        width: 16%;
+    }
+    .meet-kent-video-heading h3 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .establishment-content-learnmore {
+        padding: 15px 10px;
+    }
+    .establishment-content-image.right {
+        float: unset;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .founding-story-image.left {
+        float: unset;
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .charity-support-section-images figure {
+	    display: block;
+	    width: 82%;
+	    margin: 7px auto;
+	}
+	.product-launches-heading h3{
+		font-size: 30px;
+		line-height: 42px;
+	}
+        .bx-prev, .bx-next {
+        top: 28%;
+    }
+
+  
+}
+/*414*/
+@media only screen and (max-width:413px){
+  .footer-heading h4 {
+        font-size: 26px;
+        line-height: 37px;
+    }
+    .checkbox.left {
+        padding: 0px 0px 17px 0px;
+    }
+    .form-section {
+        padding: 25px 27px 50px;
+    }
+    .social-media-icon a:hover {
+        width: 18%;
+    }
+    .about-candela-content-heading h3{
+    	font-size: 30px;
+    	line-height: 42px;
+    }
+    .about-candela {
+        padding: 45px 0px 10px 0px;
+    }
+    .about-candela-content-heading h3 {
+	    padding: 12px 0px 8px;
+	}
+    .establishment-content-learnmore a {
+    	font-size: 16px;
+    }
+    .story-content p {
+	    font-size: 16px;
+	    line-height: 30px;
+	}
+	.founding-story-image.left {
+		margin: 9px auto;
+	}
+	.charity-support-section-heading h3{
+		font-size: 30px;
+		line-height: 42px;
+	}
+    .bx-prev, .bx-next {
+        top: 25%;
+    }
+    .line {
+        width: 78%;
+        left: 47px;
+    }
+}
+/*390*/
+@media only screen and (max-width:389px){
+	.nav-logo h3 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+    .nav-list ul li a {
+         padding: 26px 19px 20px 22px;
+     }
+      .harshbarger-heading h4 {
+        margin-bottom: 8px;
+    }
+    .form-section {
+        padding: 25px 21px 50px;
+    }
+    .serve {
+        padding: 23px 0px 12px 0px;
+    }
+    .contact {
+        padding: 0px 0px 11px 0px;
+    }
+    .mail {
+        padding: 0px 0px 8px 38px;
+    }
+    .about-meet a {
+        font-size: 16px;
+    }
+
+  
+}
+/*375*/
+@media only screen and (max-width:374px){
+	.nav-list ul li a {
+         padding: 26px 13px 20px 17px;
+    }
+    .about-candela-heading h2 {
+        font-size: 25px;
+        line-height: 36px;
+    }
+    .harshbarger-heading h4 {
+        font-size: 15px;
+    }
+    .mail a {
+        font-size: 14px;
+    }
+    .contact a {
+        font-size: 16px;
+    }
+    .serve p {
+        font-size: 14px;
+    }
+    .footer-heading h4 {
+        font-size: 21px;
+        line-height: 32px;
+    }
+    .serve {
+        padding: 10px 0px 12px 0px;
+    }
+    .meet-kent-video-heading h3 {
+        font-size: 29px;
+        line-height: 41px;
+    }
+    .social-media-icon a:hover {
+        width: 21%;
+    }
+    .meet-kent-heading h3 {
+        font-size: 26px;
+        line-height: 38px;
+    }
+    .establishment-content-learnmore {
+        padding: 10px;
+        margin: 6px auto 11px;
+        width: 100%;
+    }
+        .bx-prev, .bx-next {
+        top: 24%;
+    }
+    .line {
+        width: 78%;
+        left: 34px;
+    }
+  
+}
+/*320*/
+/*Responsive CSS End*/

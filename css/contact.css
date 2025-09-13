@@ -1,0 +1,480 @@
+/*.................................common css........................................*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box	;
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+a{
+	display: inline-block;
+	text-decoration: none;
+}
+p{
+	line-height: 30px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+	font-family: "Poppins", serif;
+}
+h1{
+	font-size: 60px;
+	line-height: 85px;
+}
+h2{
+	font-size: 46px;
+	line-height: 60px;
+}
+h3{
+	font-size: 44px ;
+	line-height: 56px;
+}
+h4{
+	font-size: 22px;
+	line-height: 36px;
+}
+h5{
+	font-size: 18px;
+	line-height: 28px;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.center-wrapper{
+	max-width: 1324px;
+	margin: auto;
+	width: 96%;
+}
+/*..........................common css end................................*/
+/*............................header start...................................*/
+header{
+	background: url("../about images/contact-banner.jpg") no-repeat center;
+	position: relative;
+}
+header::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #293037;
+    opacity: 0.9;
+}
+.navbar {
+    position: relative;
+    /*z-index: 1;*/
+}
+.nav-logo{
+	padding-top: 70px;
+	color: white;
+}
+.nav-logo a{
+	color: white;
+}
+.nav-logo h3 {
+    font-size: 33px;
+    line-height: 42px;
+}
+.nav-list ul {
+    display: inline-block;
+}
+.nav-list ul li {
+    display: inline-block;
+}
+.nav-list ul li a {
+    color: white;
+    padding: 86px 37px 20px 37px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.nav-list ul li a:hover {
+	background-color: #6E2B62;
+}
+.nav-button{
+	display: inline-block;
+	padding-left: 30px;
+}
+.nav-button a {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border: 2px solid white;
+    padding: 10px 0px;
+    border-radius: 50px;
+    min-width: 170px;
+    text-align: center;
+}
+.nav-button a:hover{
+	box-shadow: inset 0 0 0.55em 0em #dd648a;
+    border-color: #dd648a;
+    background-color: #894789;
+    transition: all 0.5s;
+}
+.about-candela-heading {
+    text-align: center;
+    padding-top: 131px;
+    padding-bottom: 89px;
+    position: relative;
+}
+.about-candela-heading h2 {
+    color: white;
+}
+.down-arrow{
+	position: relative;
+    top: 120px;
+}
+.down-arrow a {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+     background-color: #6e2b62;
+     padding: 22px;
+    position: relative;
+}
+.down-arrow a:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+.down-arrow a:before {
+	content: '';
+    position: absolute;
+    top: -28px;
+    left: -35px;
+    width: 146px;
+    height: 73px;
+    border-radius: 150px 150px 0px 0px;
+    background-color: #404347;
+    opacity: 0.8;  
+}
+.down-arrow a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #6e2b62;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+.down-arrow a img{
+    position: relative;
+    z-index: 1;
+}
+/*............................header End...................................*/
+/*............................Form section css start......................*/
+.form{
+	padding: 201px 0px 148px;
+    background-image: url("../about images/bg_map.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center 80px;
+}
+.contact-form-section{
+    background-color: #fff;
+    box-shadow: 0 10px 40px 0 rgb(0 0 0 / 3%);
+}
+.contact-page{
+	padding: 136px 50px 0px 87px;
+}
+.serving-areas h4{
+	padding-bottom: 20px;
+	font-size: 24px;
+	line-height: 36px;
+}
+.serving-areas{
+	padding: 0px 0px 115px 45px;
+	position: relative;
+}
+.serving-areas::before{
+	content: "";
+	position: absolute;
+	height: 1px;
+	width: 323px;
+	background-color: #6E2B62;
+	bottom: 65px;
+}
+
+.north-corolina{
+	padding: 0px 0px 13px 55px;
+}
+.north-corolina a{
+	color:black;
+    font-size: 18px;
+    line-height: 23px;
+    position: relative;
+    font-weight: 800;
+    font-weight: 300;
+}
+.north-corolina a img {
+    position: absolute;
+    transform: translate(-45px, 5px);
+    border :1px solid #6E2B62;
+}
+.west-virginia{
+	padding: 0px 0px 13px 55px;
+}
+.west-virginia a{
+	color:black;
+    font-size: 18px;
+    line-height: 23px;
+    position: relative;
+    font-weight: 800;
+    font-weight: 300;
+}
+.west-virginia a img{
+	 position: absolute;
+    transform: translate(-45px, 5px);
+    border :1px solid #6E2B62;
+}
+.kentucky{
+	padding: 0px 0px 13px 55px;
+}
+.kentucky a{
+	color:black;
+    font-size: 18px;
+    line-height: 23px;
+    position: relative;
+    font-weight: 800;
+    font-weight: 300;
+
+}
+.kentucky a img{
+	 position: absolute;
+    transform: translate(-45px, 5px);
+    border :1px solid #6E2B62;
+}
+.north-corolina a:hover,.west-virginia a:hover,.kentucky a:hover{
+    color: gray;
+    transition: all 0.4s;
+}
+.contact-kent{
+	padding: 0px 0px 115px 45px;
+	position: relative;
+}
+.contact-kent::before{
+	content: "";
+	position: absolute;
+	height: 1px;
+	width: 323px;
+	background-color: #6E2B62;
+	bottom: 65px;
+}
+.contact-kent h4{
+	padding-bottom: 20px;
+    font-size: 24px;
+    line-height: 36px;
+}
+.mail {
+    padding: 0px 0px 30px 38px;
+}
+.mail a {
+    color: black;
+    font-size: 20px;
+    line-height: 32px;
+    position: relative;
+
+}
+.mail a img{
+	position: absolute;
+    transform: translate(-34px, 5px);
+}
+.contact{
+	padding: 0px 0px 19px 38px;
+}
+.contact a{
+	color: black;
+    font-size: 20px;
+    line-height: 32px;
+    position: relative;
+    
+}
+.contact a img{
+	position: absolute;
+    transform: translate(-34px, 5px);
+}
+.mail a:hover,.contact a:hover{
+	color: grey;
+	transition: all 0.5s ease-in-out;
+}
+.connect-us-section {
+	padding: 0px 0px 40px 45px;
+}
+.connect-us-section h4{
+	font-size: 33px;
+    line-height: 46px;
+}
+.social-media-icon {
+    padding: 16px 0px 0px 0px;
+}
+.social-media-icon a {
+   padding: 15px 19px 18px 20px;
+}
+.social-media-icon a:hover{
+	background-color: #6E2B62;
+	border-radius: 50%;
+}
+.social-media-icon a:hover path{
+	fill: white;
+}
+.form-section {
+    background-color: #6E2B62;
+    padding: 60px 80px 50px;
+    width: 60%;
+}
+.form-heading h4 {
+    color: white;
+    font-size: 25px;
+    line-height: 37px;
+}
+.form-container input{
+	width: 100%;
+    padding: 29px 0px 16px 0px;
+    background-color: #6E2B62;
+    border: none;
+    border-bottom: 1px solid #804676;
+    font-size: 20px;
+    line-height: 32px;
+    outline: none;
+    color: white;
+}
+.form-container input::placeholder{
+	color: white;
+}
+.form-heading h5 {
+    color: white;
+    padding: 37px 0px 15px 0px;
+    font-weight: 900;
+}
+.checkbox.left {
+    padding: 0px 85px 17px 0px;
+}
+.checkbox input {
+    transform: scale(2);
+ }
+.checkbox.left label {
+    padding-left: 15px;
+    color: white;
+}
+.message-field textarea{
+    width: 100%;
+    padding: 9px 0px 62px 0px;
+    background-color: #6E2B62;
+    border: none;
+    border-bottom: 1px solid #804676;
+    font-size: 20px;
+    line-height: 32px;
+    outline: none;
+    color: white;
+    resize: none;
+    font-family: "Poppins", serif;
+}
+.message-field textarea::placeholder{
+	color: white;
+}
+.submit-button {
+    padding-top: 29px;
+    position: relative;
+}
+.submit-button input{
+	border-radius: 33px;
+    border: 2px solid #fff;
+    background: url(../images/errow_white.svg) no-repeat 77% center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 21px !important;
+    line-height: 25px;
+    padding: 16px 65px 16px 33px;
+    cursor: pointer;
+}
+.submit-button input:hover{
+    box-shadow: inset 0 0 0.55em 0em #dd648a;
+    border-color: #e7d6dc;
+    background-color: #894789;
+    transition: all 0.5s;
+}
+.error-message {
+    color: red;
+}
+/*............................Form section css start......................*/
+/*............................Kent_harshbarder css start...................*/
+.harshbarger-heading {
+    text-align: center;
+}
+.harshbarger-heading h4 {
+    font-size: 25px;
+    line-height: 37px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 3px;
+    margin-bottom: 86px;
+    color: black;
+}
+.harshbarger-heading a h4:hover {
+    color: grey;
+    transition: all 0.5s ease-in;
+}
+.harshnarger-container-image figure {
+    max-width: 379px;
+    padding: 0px 0px 2px 3px;
+}
+/*.............................................kent harshbarfer css end................................*/
+/*............................................footer css start.......................................*/
+.footer{
+	background-color: #101820;
+    padding: 45px 0px 40px;
+}
+.footer-copyright{
+    text-align: center;
+}
+.footer-copyright a{
+	color: #787f88;
+}
+.footer-copyright a:hover{
+	color: white;
+	transition: all .4s ease-in-out;
+}
+/*...............................................footer css end..........................................*/
+#myBtn{
+    display: none;
+     position: fixed;
+    bottom: 32px;
+    right: 82px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #6e2b62;
+    padding: 22px;
+    border: none;
+    cursor: pointer;
+}
+#myBtn figure svg{
+    animation: bounce 2s infinite;
+}
+@keyframes bounce{
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-22px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+#myBtn:hover{
+    background-color: #71719f;;
+    transition: all 0.3s;
+    transform: scale(1.1);
+}

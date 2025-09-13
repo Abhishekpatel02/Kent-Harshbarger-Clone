@@ -1,0 +1,685 @@
+/*.................................common css........................................*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box	;
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+a{
+	display: inline-block;
+	text-decoration: none;
+}
+p{
+	line-height: 30px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+	font-family: "Poppins", serif;
+}
+
+h1{
+	font-size: 60px;
+	line-height: 85px;
+}
+h2{
+	font-size: 46px;
+	line-height: 60px;
+}
+h3{
+	font-size: 44px ;
+	line-height: 56px;
+}
+h4{
+	font-size: 22px;
+	line-height: 36px;
+}
+h5{
+	font-size: 18px;
+	line-height: 28px;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.center-wrapper{
+	max-width: 1324px;
+	margin: auto;
+	width: 96%;
+}
+/*..........................common css end................................*/
+/*............................header start...................................*/
+header{
+	background: url("../about images/contact-banner.jpg") no-repeat center;
+	position: relative;
+}
+header::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #293037;
+    opacity: 0.9;
+}
+.navbar {
+    position: relative;
+    /*z-index: 1;*/
+}
+.nav-logo{
+	padding-top: 70px;
+	color: white;
+}
+.nav-logo a{
+	color: white;
+}
+.nav-logo h3 {
+    font-size: 33px;
+    line-height: 42px;
+}
+.nav-list ul {
+    display: inline-block;
+}
+.nav-list ul li {
+    display: inline-block;
+}
+.nav-list ul li a {
+    color: white;
+    padding: 86px 37px 20px 37px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.nav-list ul li a:hover {
+	background-color: #6E2B62;
+}
+.nav-button{
+	display: inline-block;
+	padding-left: 30px;
+}
+.nav-button a {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border: 2px solid white;
+    padding: 10px 0px;
+    border-radius: 50px;
+    min-width: 170px;
+    text-align: center;
+}
+.nav-button a:hover{
+	box-shadow: inset 0 0 0.55em 0em #dd648a;
+    border-color: #dd648a;
+    background-color: #894789;
+    transition: all 0.5s;
+}
+.about-candela-heading {
+    text-align: center;
+    padding-top: 131px;
+    padding-bottom: 89px;
+    position: relative;
+}
+.about-candela-heading h2 {
+    color: white;
+}
+.down-arrow{
+	position: relative;
+    top: 120px;
+}
+.down-arrow a {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+     background-color: #6e2b62;
+     padding: 22px;
+    position: relative;
+}
+.down-arrow a:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+.down-arrow a:before {
+	content: '';
+    position: absolute;
+    top: -28px;
+    left: -35px;
+    width: 146px;
+    height: 73px;
+    border-radius: 150px 150px 0px 0px;
+    background-color: #404347;
+    opacity: 0.8;  
+}
+.down-arrow a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #6e2b62;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+.down-arrow a img{
+	position: relative;
+	z-index: 1;
+}
+/*............................header End...................................*/
+/*............................about candela css start.............................*/
+.about-candela {
+    padding: 178px 0px 151px 0px;
+}
+.about-ceo-image {
+    position: relative;
+    margin-left: 102px;
+}
+.about-ceo-image::before {
+    content: "";
+    position: absolute;
+    height: 104px;
+    width: 109px;
+    background-color: black;
+    left: -39px;
+    top: -32px;
+    z-index: -1;
+}
+.about-candela-content.right {
+    width: 55%;
+}
+.about-candela-content-heading h3{
+    padding: 24px 0px 29px;
+}
+.about-candela-content-article p{
+	font-size: 19px;
+    line-height: 36px;
+    font-weight: 300;
+    padding: 0px 140px 0px 0px;
+}
+/*............................about candela css End.............................*/
+ /*............................establishment section css start.................... */
+.establishment{
+	padding-bottom: 233px;
+}
+.establishment-section{
+	background-color: #f1f4f5;
+    padding: 80px 70px 20px;
+}
+.establishment-content-article {
+    width: 55%;
+}
+.establishment-content-article article p {
+    font-size: 19px;
+    line-height: 36px;
+    font-weight: 200;
+    padding: 118px 53px 0px 0px;
+}
+.establishment-content-learnmore{
+	background-color: #6e2b62;
+    width: 80%;
+    padding: 64px 165px 64px 67px;
+    margin: 145px 0px -194px 107px;
+}
+.establishment-content-learnmore a {
+    font-size: 20px;
+    padding-top: 15px;
+    font-weight: 800;
+    padding: 0px 44px 8px 0px;
+    border-bottom: 3px solid #ffffff;
+    position: relative;
+    color: #ffffff;
+}
+.establishment-content-learnmore a:after{
+	content: "";
+	position: absolute;
+    background: url("../about images/errow_white.svg") no-repeat center;
+    width: 22px;
+    height: 11px;
+    right: 12px;
+    bottom: 16px;
+}
+.establishment-content-learnmore a:hover{
+	color: grey;
+	transition: all 0.5s ease-in-out;
+}
+.establishment-content-learnmore a:hover::after {
+    transform: translateX(50%);
+    transition: all .5s;
+}
+.establishment-content-image {
+    width: 45%;
+}
+/*............................establishment section css End.................... */
+/*............................founding story section Css start....................*/
+.story-heading {
+    width: 33%;
+    display: inline-block;
+    border-left: 5px solid #6E2B62;
+    padding: 42px 0px 42px 77px;
+}
+.story-content {
+    width: 66%;
+    display: inline-block;
+    padding: 0px 115px 0px 95px;
+    vertical-align: middle;
+}
+.story-content p{
+	font-size: 18px;
+	line-height: 32px;
+	font-weight: 200;
+}
+.founding-story-image-content{
+	padding: 80px 0px 0px;
+}
+.founding-story-image {
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    padding-right: 29px;
+    width: 42%;
+    padding-bottom: 31px;
+}
+.founding-story-content{
+    background-color: black;
+    color: white;
+    width: 73%;
+    padding: 145px 50px 101px 293px;
+    margin-top: 77px;
+    margin-left: -217px;
+}
+.founding-story-content p {
+    font-size: 19px;
+    line-height: 36px;
+    padding-bottom: 20px;
+}
+/*............................founding story section Css End....................*/
+
+/*-- ............................charity support section css start...................--*/
+.charity-support{
+	padding: 160px 0px;
+}
+.charity-support-section-heading {
+    text-align: center;
+}
+.charity-support-section-article {
+    text-align: center;
+    padding: 52px 145px;
+    font-size: 19px;
+    font-weight: 200;
+}
+.charity-support-section-images{
+	text-align: center;
+}
+.charity-image {
+    display: inline-block;
+    width: 325px;
+    height: 171px;
+    padding: 20px 71px;
+    background-color: #F1F4F5;
+}
+ /*............................charity support section css End...................*/
+ /*............................product launches Css start ..............................*/
+.product-launches-section {
+    padding-bottom: 120px;
+    position: relative;
+}
+.product-launches-heading {
+    text-align: center;
+    margin-bottom: 16px;
+}
+.border-line {
+    position: relative;
+}
+.line {
+    border: 3px solid #F1F4F5;
+    position: absolute;
+    width: 100%;
+    top: 116px;
+}
+.product-boxes .bx-viewport {
+    padding-top: 165px;
+}
+.box {
+    width: 100%; 
+    background-color: black;
+    color: white;
+    padding: 50px 11px 59px 11px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    box-sizing: border-box;
+}
+.box a {
+   background-color: #6e2b62;
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    color: #fff;
+    padding: 18px 4px;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -150px;
+}
+.box::after {
+    content: "";
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid #F1F4F5;
+    transform: translate(-13px, -57px);
+    top: 0%;
+}
+.box::before {
+    content: "";
+    position: absolute;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: #000000;
+    width: 47px;
+    height: 28px;
+    transform: translate(-27px, -68px);
+}
+.box h4 {
+    font-size: 24px;
+    position: relative;
+    line-height: 36px;
+    padding: 20px 0px 22px;
+}
+.box h4::after {
+    content: "";
+    position: absolute;
+    width: 25%;
+    border-bottom: 2px solid #6e2b62;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.box p {
+    font-size: 18px;
+    margin-top: 12px;
+}
+.box h5 {
+    font-size: 20px;
+    line-height: 32px;
+    padding: 20px 0px 22px;
+}
+.bx-prev, .bx-next {
+    font-size: 0;
+    background: url("../about images/prev_errow.svg") no-repeat center;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    transform: translate(-50px, -50px);
+    top: 21.8%;
+}
+.bx-next {
+    background: url("../about images/next_erow1.svg") no-repeat center;
+    right: -8%;
+}
+.bx-pager.bx-default-pager {
+    display: none;
+}
+/*............................product launches Css End ..............................*/
+/*............................................Kent_harshbarder css start...........................*/
+.Kent-harshbarger {
+    padding-bottom: 153px;
+}
+.harshbarger-heading {
+    text-align: center;
+}
+.harshbarger-heading h4 {
+    font-size: 25px;
+    line-height: 37px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 3px;
+    margin-bottom: 86px;
+    color: black;
+}
+.harshbarger-heading a h4:hover {
+    color: grey;
+    transition: all 0.5s ease-in;
+}
+.harshnarger-container-image figure {
+    max-width: 379px;
+    padding: 0px 0px 2px 3px;
+}
+/*.bx-viewport {
+    padding-top: 0;
+}*/
+/*.............................................kent harshbarfer css end................................*/
+/*............................................Contact us section css start.............................*/
+.connect-us {
+    margin-bottom: -385px;
+}
+.connect-us-section {
+    margin-top: 70px;
+    width: 35%;
+}
+.connect-us-section h4{
+	font-size: 33px;
+    line-height: 46px;
+}
+.social-media-icon {
+    padding: 72px 0px 0px 0px;
+}
+.social-media-icon a {
+   padding: 15px 19px 18px 20px;
+}
+.social-media-icon a:hover{
+	background-color: #6E2B62;
+	border-radius: 50%;
+}
+.social-media-icon a:hover path{
+	fill: white;
+}
+.form-section {
+    background-color: #6E2B62;
+    padding: 60px 80px 50px;
+    width: 60%;
+}
+.form-heading h4 {
+    color: white;
+    font-size: 25px;
+    line-height: 37px;
+}
+.form-container input{
+	width: 100%;
+    padding: 29px 0px 16px 0px;
+    background-color: #6E2B62;
+    border: none;
+    border-bottom: 1px solid #804676;
+    font-size: 20px;
+    line-height: 32px;
+    outline: none;
+    color: white;
+}
+.form-container input::placeholder{
+	color: white;
+}
+.form-heading h5 {
+    color: white;
+    padding: 37px 0px 15px 0px;
+    font-weight: 900;
+}
+.checkbox.left {
+    padding: 0px 85px 17px 0px;
+}
+.checkbox input {
+    transform: scale(2);
+ }
+.checkbox.left label {
+    padding-left: 15px;
+    color: white;
+}
+.message-field textarea{
+    width: 100%;
+    padding: 9px 0px 62px 0px;
+    background-color: #6E2B62;
+    border: none;
+    border-bottom: 1px solid #804676;
+    font-size: 20px;
+    line-height: 32px;
+    outline: none;
+    color: white;
+    resize: none;
+    font-family: "Poppins", serif;
+}
+.message-field textarea::placeholder{
+	color: white;
+}
+.submit-button {
+    padding-top: 29px;
+    position: relative;
+}
+.submit-button input{
+	border-radius: 33px;
+    border: 2px solid #fff;
+    background: url("../images/errow_white.svg") no-repeat 77% center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 21px !important;
+    line-height: 25px;
+    padding: 16px 65px 16px 33px;
+    cursor: pointer;
+}
+.submit-button input:hover{
+    box-shadow: inset 0 0 0.55em 0em #dd648a;
+    border-color: #e7d6dc;
+    background-color: #894789;
+    transition: all 0.5s;
+}
+.error-message {
+    color: red;
+}
+/*............................................Contact us section css End.............................*/
+/*............................................footer css start.......................................*/
+.footer{
+	background-color: #101820;
+    padding: 114px 0px 43px;
+}
+
+.footer-heading h4{
+	color: white;
+	font-size: 30px;
+    line-height: 42px;
+    font-weight: 800;
+    padding-bottom: 18px;
+    position: relative;
+}
+.footer-heading h4::after{
+	content: "";
+    position: absolute;
+    width: 7%;
+    height: 0px;
+    border: 1px solid #6E2B62;
+    left: 0px;
+    bottom: 0px;
+}
+.serve {
+    padding: 23px 0px 37px 0px;
+}
+.serve p {
+    color: white;
+    font-weight: 800;
+}
+ .mail {
+    padding: 0px 0px 30px 38px;
+}
+.mail a {
+    color: white;
+    font-size: 18px;
+    line-height: 23px;
+    position: relative;
+    font-weight: 800;
+}
+.mail a img{
+	position: absolute;
+    transform: translate(-34px, 5px);
+}
+.contact{
+	padding: 0px 0px 19px 38px;
+}
+.contact a{
+	color: white;
+    font-size: 18px;
+    line-height: 23px;
+    position: relative;
+    font-weight: 800;
+}
+.contact a img{
+	position: absolute;
+    transform: translate(-34px, 5px);
+}
+.mail a:hover,.contact a:hover{
+	color: grey;
+	transition: all 0.5s ease-in-out;
+}
+.footer-content{
+	padding-bottom: 188px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.footer-copyright{
+    padding-top: 45px;
+    text-align: center;
+}
+.footer-copyright a{
+	color: #787f88;
+}
+.footer-copyright a:hover{
+	color: white;
+	transition: all .4s ease-in-out;
+}
+/*...............................................footer css end..........................................*/
+#myBtn{
+    display: none;
+     position: fixed;
+    bottom: 32px;
+    right: 82px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #6e2b62;
+    padding: 22px;
+    border: none;
+    cursor: pointer;
+}
+#myBtn figure svg{
+    animation: bounce 2s infinite;
+}
+@keyframes bounce{
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-14px);
+    }
+    60% {
+        transform: translateY(0px);
+    }
+}
+#myBtn:hover{
+    background-color: #71719f;;
+    transition: all 0.3s;
+    transform: scale(1.1);
+}
+
+
+/*.product-boxes {
+    padding-top: 167px;
+}*/
